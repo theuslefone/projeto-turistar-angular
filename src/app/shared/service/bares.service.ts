@@ -9,7 +9,7 @@ import { Carnaval } from 'src/app/shared/model/carnaval.model';
 })
 export class BaresService {
 
-  url = 'http://dd70-186-215-0-255.ngrok.io'; // api rest fake
+  url = 'http://a8a8-45-6-14-90.ngrok.io';
 
   // injetando o HttpClient
   constructor(private httpClient: HttpClient) { }
