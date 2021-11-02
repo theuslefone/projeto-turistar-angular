@@ -1,0 +1,9 @@
+.logo{
+  text-align: center;
+  background-image: url(/assets/img/fundo.jpg);
+}
+
+.logo img{
+  width: 200px;
+}
+
