@@ -1,7 +1,5 @@
-
-
-<ng-container *ngFor = "let bar of bares">
-  <mat-card>
+<ng-container *ngFor = "let bar of bares" class = "container">
+  <mat-card class = "card">
     <mat-card-title>{{bar.nome}}</mat-card-title>
     <mat-card-subtitle> <a href={{bar.site}}>{{bar.site}}</a> - {{bar.telefone}} - {{bar.endereco}}</mat-card-subtitle>
     <mat-card-content>Especialidade do local: {{bar.especialidade}}</mat-card-content>

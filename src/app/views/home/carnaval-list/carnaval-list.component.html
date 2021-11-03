@@ -1,6 +1,8 @@
-<mat-card class="example-card" *ngFor = "let bloco of agremiacoes">
-  <mat-card-title>{{bloco.nome}}</mat-card-title>
-  <mat-card-subtitle>{{bloco.endereco}}</mat-card-subtitle>
-  <mat-card-content>{{bloco.modalidade}}</mat-card-content>
-</mat-card>
+<ng-container *ngFor = "let bloco of agremiacoes">
+  <mat-card class="card">
+    <mat-card-title>{{bloco.nome}}</mat-card-title>
+    <mat-card-subtitle>{{bloco.endereco}}</mat-card-subtitle>
+    <mat-card-content>{{bloco.modalidade}}</mat-card-content>
+  </mat-card>
+</ng-container>
 
